@@ -25,7 +25,9 @@ li a {
 }
 
 li a:hover {
-  background-color: #E5E5E5;
+  background-color: rgba(158, 125, 6, 0.637);
+  color: black;
+  opacity: 70%
 }
 
 ul {
@@ -33,14 +35,17 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  background-color: #DAA900;
 }
 
 .active {
-  background-color: #DAA900;
+  background-color: #002856;
+  color: #DAA900;
 }
 .active:hover {
-  background-color:	rgb(240, 191, 17);
+  background-color: #002856;
+  color: #DAA900;
+  opacity: 85%
 }
 
 .intro {
