@@ -1,22 +1,31 @@
 
 h1 {
+  font-size-adjust: 30px;
   text-align: center;
-  font: inherit;
+  color: #FFBF3C;
+}
+
+b1 {
+  font-size-adjust: 30px;
+  /* background-color:color rgb(0,145,179); */
+  text-align: center;
 }
 
 li {
+  /* display: inline; */
   float: left;
+  width: 25%;
 }
 
 li a {
   display: block;
-  color: white;
-  padding: 10px 12px;
+  color: black;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: green;
+  background-color: #E5E5E5;
 }
 
 ul {
@@ -24,11 +33,14 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
 }
 
 .active {
-  background-color: green;
+  background-color: #DAA900;
+}
+.active:hover {
+  background-color:	rgb(240, 191, 17);
 }
 
 .intro {

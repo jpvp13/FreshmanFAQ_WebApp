@@ -1,5 +1,5 @@
 .button {
-  background-color: #4CAF50;
+  background-color: #FFBF3C;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -15,23 +15,31 @@
 h1 {
   font-size-adjust: 30px;
   text-align: center;
+  color: #FFBF3C;
+}
+
+b1 {
+  font-size-adjust: 30px;
+  /* background-color:color rgb(0,145,179); */
+  text-align: center;
 }
 
 li {
   /* display: inline; */
   float: left;
+  width: 25%;
 }
 
 li a {
   display: block;
-  color: white;
-  /* text-align: center; */
-  padding: 10px 12px;
+  color: black;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: green;
+  background-color: rgba(158, 125, 6, 0.637);
+  opacity: 70%
 }
 
 ul {
@@ -39,11 +47,16 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #DAA900;
 }
 
 .active {
-  background-color: green;
+  background-color: #002856;
+}
+.active:hover {
+  /* background-color:	rgb(240, 191, 17); */
+  background-color: #002856;
+  opacity: 95%
 }
 
 .intro {
@@ -107,6 +120,27 @@ ul {
 }
 
 
+body{
+  background-color: white;
+}
+
+
+/* .centerblock{ 
+    background-color: red; 
+    padding-top: 100px; 
+}  */
+ 
+.square{ 
+    width: 200px; 
+    height: 100px; 
+    
+    Background-color: rgb(0,145,179); 
+    background-attachment: border;
+    
+} 
+
+
+
 
 /* d1 {
   float: center;
@@ -114,11 +148,3 @@ ul {
    padding: 30px;  if you want space between the images 
 } */
 
-/* body{
-  /* background-color: lightgoldenrodyellow; */
-  /* background-image:url(Photos/IMG_2269.JPG);
-  background-position: center top;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-size: contain; 
-} */
