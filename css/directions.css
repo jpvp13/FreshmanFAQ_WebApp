@@ -58,7 +58,6 @@ li a:hover {
 }
 
 
-/* Style The Dropdown Button */
 .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -66,50 +65,37 @@ li a:hover {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  float: right;
 }
-
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
+  /* display: center;  Does this look better? */
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
-/* Links inside the dropdown */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
 
-
-.grey {
+/* body{
   background-color: #5B5B5B;
-}
-
-.new-color {
-  background-color: #002856;
-}
+} */
